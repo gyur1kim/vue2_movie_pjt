@@ -1,24 +1,36 @@
-# my-vue-pjt
+### 😍 좋았던 것(Liked)
 
-## Project setup
-```
-npm install
-```
+- API key 를 발급받아 원하는 데이터만 가공해 이용할 수 있다는 점에서, 
+  
+  다양한 방면에서의 활용이 가능할 것 같아 굉장히 흥미롭게 프로젝트를 진행할 수 있었습니다. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Vue-Router를 사용해 하나의 HTML 문서만 반환할 수 있는 SPA 의 한계를 극복할 수 있었다는 점이 좋았습니다. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- gitlab과 github를 통해 협업을 진행할 수 있어서 좋았습니다.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### 📚 배운 것(Learned)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- master branch에서 git pull을 통해 주기적으로 최신 버전의 프로젝트를 받아 갱신하는 방법을 배웠습니다.
+
+- emit, props의 과정은 이해를 했지만 실습을 해보지 않았는데
+
+       이번 프로젝트를 통해 vue 파일에서의 데이터를 다른 vue 파일로 옮기는 작업을
+
+       수행하며 emit, props의 작동 과정을 확실히 배우게 되었습니다.
+
+- bootstrap을 통해 같은 코드임에도 불구하고 가독성이 뛰어난 웹페이지를 만들 수
+  
+  있다는 것을 알게 되었습니다.
+
+### 💦 부족했던 것(Lacked)
+
+- master branch가 아닌 다른 branch를 통해 각자의 역할을 수행하고, merge를 해보는 방식이 앞으로 더 많이 쓰일 것 같다.
+- 수업시간에 배웠던 여러 코드들이 이해가 되었음에도 불구하고 실제로 사용을 하려니
+
+       자연스럽게 사용이 어려웠습니다.
+
+### 🕯 바라는 것(Longed for)
+
+- 프로젝트를 진행하며 다양한 branch를 통해 각자 맡은 업무를 하고, 이 branch들을 merge해서 master branch에서 완성 프로젝트를 만드는 과정을 꼭 진행해보고 싶습니다. 
+
+- 배웠던 여러 코드들을 확실히 이해하고 체화해 프로젝트의 진행 속도를 비약적으로 늘려보고 싶습니다.
