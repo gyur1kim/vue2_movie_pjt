@@ -8,9 +8,13 @@
   </div>
 </template>
 
+
 <script>
 import axios from 'axios'
+import api_key from '../key.js'
 import MovieCard from '@/components/MovieCard'
+
+const MOVIE_API = api_key;
 
 export default {
   name: 'MovieView',
@@ -24,7 +28,7 @@ export default {
   },
   methods: {
     topRatedMovies(){
-      const URL = 'https://api.themoviedb.org/3/movie/top_rated?api_key=2808f49cb7a157269d3c55874b8d52e5&language=ko-KR'
+      const URL = `https://api.themoviedb.org/3/movie/top_rated?api_key=${MOVIE_API}&language=ko-KR`
 
       axios({
         method: 'GET',
