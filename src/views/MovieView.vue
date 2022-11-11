@@ -2,7 +2,7 @@
   <div class="movie">
     <h1>뀰movie</h1>
     <MovieCard 
-      v-for="(movie, idx) in topMovies" :key="idx"
+      v-for="movie in topMovies" :key="movie.id"
       :movie="movie"
     />
   </div>
