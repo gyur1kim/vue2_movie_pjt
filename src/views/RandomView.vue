@@ -1,13 +1,21 @@
 <template>
-  <div>
-    <h1>뀰random</h1>
+  <div class="random d-flex flex-column align-items-center">
     <button 
       @click="recommendMovie"
+      class="btn btn-primary"
     >
-      영화 chu 1000
+      다른 영화를 추천받고싶어요!
     </button>
-    <img :src="recommendMoviePosterPath" alt="">
-    <div>{{ movie.title }}</div>
+
+    <div class="card" style="width: 18rem;">
+      <img :src="recommendMoviePosterPath" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-title fw-bold">{{ movie.title }}</p>
+      </div>
+    </div>
+
+    <img  alt="">
+    <div></div>
   </div>
 </template>
 
@@ -59,5 +67,15 @@ export default {
 </script>
 
 <style>
-
+.random {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.btn {
+  width: 70%;
+  height: 50px;
+}
+.random .card{
+  margin-top: 60px;
+}
 </style>

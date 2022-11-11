@@ -1,10 +1,11 @@
 <template>
   <div class="movie">
-    <h1>뀰movie</h1>
-    <MovieCard 
-      v-for="movie in topMovies" :key="movie.id"
-      :movie="movie"
-    />
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <MovieCard 
+        v-for="movie in topMovies" :key="movie.id"
+        :movie="movie"
+      />
+    </div>
   </div>
 </template>
 
@@ -49,3 +50,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.movie {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+</style>

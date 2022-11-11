@@ -1,8 +1,14 @@
 <template>
   <div>
-    <img :src="poster_path" alt="영화 포스터">
-    <h3>{{ movie.title }}</h3>
-    <p>{{ overview }}</p>
+    <div class="col">
+      <div class="card h-100">
+        <img :src="poster_path" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">{{ movie.title }}</h5>
+          <p class="card-text">{{ overview }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

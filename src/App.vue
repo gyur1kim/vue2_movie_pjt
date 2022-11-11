@@ -5,7 +5,7 @@
       <router-link :to="{ name: 'random'}">Random</router-link> |
       <router-link :to="{ name: 'watch-list'}">WatchList</router-link>
     </nav>
-    <router-view/>
+    <router-view  class="container"/>
   </div>
 </template>
 
@@ -20,6 +20,7 @@
 
 nav {
   padding: 30px;
+  background-color: #dbf3e8;
 }
 
 nav a {
