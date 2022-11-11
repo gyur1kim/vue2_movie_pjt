@@ -2,7 +2,7 @@
   <div class="random d-flex flex-column align-items-center">
     <button 
       @click="recommendMovie"
-      class="btn btn-primary"
+      class="btn"
     >
       다른 영화를 추천받고싶어요!
     </button>
@@ -58,7 +58,7 @@ export default {
       }
       this.movie = movie
       this.recommendMoviePosterPath = `https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}`
-    }
+    },
   },
   created(){
     this.highRatedMovies()
@@ -74,6 +74,8 @@ export default {
 .btn {
   width: 70%;
   height: 50px;
+  background-color: #42b983;
+  color: white;
 }
 .random .card{
   margin-top: 60px;
